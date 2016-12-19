@@ -1,4 +1,43 @@
 /*  first customize entire body then make classes for individual edits */
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    width: 20%;
+    background-color: #ffff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #FF3AD5;
+font-family: 'Permanent Marker', cursive; 
+  font-size: 200%;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: turquoise;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #42FF33  ;
+    color: white;
+}
+
+body {
+  margin: 15m auto;
+  max-width: 30m;
+  line-height: 1.5;
+}
 
 .title { 
   color: turquoise; 
@@ -11,16 +50,17 @@
 }
 
 .drake {
-    text-indent: 50px;
+    text-indent: 55px;
 }
 
 
 .appletalk {
-  color: magenta 
+  color: #FF3AD5 
 ;
   font-family: 'Permanent Marker', cursive;
   text-indent: 50px;
 font-size: 75%;
+  
   
 }
 
@@ -60,11 +100,12 @@ body {
   
 }
   .style {
-   color: magenta
+   color: #FF3AD5 
 ;
   font-family: 'Permanent Marker', cursive; 
    text-align: center;
-   background-color: #97FF62  
+   background-color: #97FF62; 
+     line-height: 1.0;
   
   ;    
   }
